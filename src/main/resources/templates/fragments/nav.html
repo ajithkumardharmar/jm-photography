@@ -1,0 +1,21 @@
+<header class="jm-header" th:fragment="header">
+  <div class="header-container">
+    <a href="/" class="brand-logo" aria-label="JM Photography home">
+      <img src="/images/jm-logo-header.png" alt="JM Photography logo">
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" onclick="const n=document.querySelector('.main-nav'); const o=n.classList.toggle('open'); this.setAttribute('aria-expanded',o)">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="/" class="active">Home</a>
+      <a href="/about">About</a>
+      <a href="/services">Services</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/products">Products</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="header-icon" href="https://www.instagram.com/jm_photography_16/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">◎</a>
+      <a class="header-icon" href="https://share.google/yvMMPOevV4k1jWpV7" target="_blank" rel="noopener noreferrer" aria-label="Find us on map">⌖</a>
+      <a href="/contact" class="book-btn">▦&nbsp; Book Now</a>
+    </div>
+  </div>
+</header>
